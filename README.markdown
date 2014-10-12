@@ -1,6 +1,6 @@
 # Introduction
 
-This is a Ruby event handler that can attach to the EventBus system and process events.
+This is a Ruby event handler that can attach to the [EventBus](https://github.com/aeden/eventbus) system and process events.
 
 # Installation
 
@@ -24,7 +24,7 @@ To start, set up .env as follows:
 AUTHORIZATION_TOKEN=123abcDFE
 ```
 
-You should change the token if you change it in the [EventBus](https://github.com/aeden/eventbus) service config.
+You should change the token if you change it in the EventBus service config.
 
 Once .env is set up, run `foreman start`
 
