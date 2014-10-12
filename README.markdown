@@ -2,7 +2,7 @@
 
 This is a Ruby event handler that can attach to the EventBus system and process events.
 
-## Installation
+# Installation
 
 If necessary, install bunder:
 
@@ -15,6 +15,20 @@ Next, run bundler install:
 ```
 bundle install
 ```
+
+# Running
+
+To start, set up .env as follows:
+
+```
+AUTHORIZATION_TOKEN=123abcDFE
+```
+
+You should change the token if you change it in the EventBus service config.
+
+Once .env is set up, run `foreman start`
+
+# Notes
 
 ## Retry Logic
 
