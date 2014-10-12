@@ -24,7 +24,7 @@ To start, set up .env as follows:
 AUTHORIZATION_TOKEN=123abcDFE
 ```
 
-You should change the token if you change it in the EventBus service config.
+You should change the token if you change it in the [EventBus](https://github.com/aeden/eventbus) service config.
 
 Once .env is set up, run `foreman start`
 
